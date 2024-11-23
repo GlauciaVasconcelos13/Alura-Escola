@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(158, 248, 236);
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 100px;
+}
+
+header {
+    border: solid 2px orange;
+    padding: 15px;
+    font-size: 22px;
+    color: orange;
+}
+
+section {
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+img {
+    height: 200px;
+    box-shadow: 5px 5px 10px black;
+}
+
+iframe{
+    box-shadow: 5px 5px 10px black;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+  }
+  
+.categoria-videos section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
