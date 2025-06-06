@@ -1,0 +1,224 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"  crossorigin="anonymous"  />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu portfólio</title>
+  </head>
+  <body>
+      
+      <header class="container text-center"">
+          <img src="imagens/avatar-perfil.png" class="rounded-circle" alt="avatar da Gláucia" srcset="" width="150" height="150" />
+          <p class="lead">Eu sou a Gláucia</p>
+          <h1>Eu curso Programação</h1>
+          <p>
+              Sou estudante de programação. Estou cursando o Ensino Médio. Aprendo sobre pensamento
+              computacional usando HTML, CSS e JavaScript. Veja os projetos que já
+              desenvolvi!
+          </p>
+          <p>Minhas habilidades</p>
+          <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+          </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus Projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagens/projeto-1.png" class="card-img-top" alt="Gerador de Senhas" />
+                    <div class="card-body">
+                      <h5 class="card-title">Gerador de Senhas</h5>
+                      <p class="card-text">
+                        Este projeto consiste em um gerador de senhas aleatórias, desenvolvido com HTML, CSS e JavaScript. Seu objetivo é oferecer uma ferramenta simples e prática para gerar senhas seguras com base em critérios definidos pelo usuário.
+                      </p>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja meu projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagens/projeto-2.png" class="card-img-top" alt="Previsão do Tempo" />
+                    <div class="card-body">
+                      <h5 class="card-title">Previsão do tempo</h5>
+                      <p class="card-text">
+                        Este projeto é um aplicativo web de previsão do tempo, criado com HTML, CSS e JavaScript, que permite ao usuário consultar as condições climáticas atuais de qualquer cidade, utilizando dados de uma API externa de clima.
+                      </p>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja meu projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagens/projeto-3.png" class="card-img-top" alt="Gerador de Pokemons" />
+                    <div class="card-body">
+                      <h5 class="card-title">Gerador de Pokemons</h5>
+                      <p class="card-text">
+                        Este projeto é uma aplicação web interativa que gera Pokémons aleatórios utilizando dados da PokéAPI, permitindo que o usuário descubra novos Pokémons de forma divertida. Ele foi desenvolvido com HTML, CSS e JavaScript, sem necessidade de backend.
+                      </p>
+                      <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja meu projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Gerador de Senhas</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Este projeto é uma aplicação web desenvolvida com HTML, CSS e JavaScript, cujo principal objetivo é fornecer uma ferramenta prática, segura e acessível para a geração de senhas personalizadas. Ele foi pensado tanto para fins educacionais (para quem está aprendendo desenvolvimento web) quanto para uso real por usuários que desejam criar senhas fortes para contas e serviços online.
+                </p>
+                <p>
+                    A estrutura do site é baseada em HTML, que define a semântica e o layout do
+                    conteúdo, enquanto o CSS é usado para estilizar a página visualmente,
+                    incluindo cores, tipografia e a disposição dos elementos.
+                </p>
+                <p>
+                    O HTML organiza o conteúdo em
+                    uma divisão principal (.container-gerador-senha) que apresenta os campos para gerar as senhas. Cada campo é destacado em
+                    sua própria div, mostrando um container alternativas para que o usuário possa gerar a sua senha aleatória de acordo com o seu desejo. O design responsivo é garantido pelo uso de uma
+                    meta tag viewport e um layout flexível que se adapta a diferentes tamanhos
+                    de tela.
+                </p>
+                <p>
+                    O CSS personaliza o visual do site, usando variáveis para cores, estilizando
+                    o texto com uma fonte importada do Google Fonts e aplicando um esquema de
+                    cores suaves e botões interativos. O uso de HTML e CSS é importante pois
+                    assim é possível criar um site acessível e esteticamente agradável sem a
+                    necessidade de scripts complexos, com foco na usabilidade e na experiência
+                    da pessoa usuária. A escolha da tipografia e do esquema de cores contribui
+                    para a atmosfera acolhedora do site.
+                </p>
+                <img src="imagens/projeto-1.png" class="img-fluid w-100" alt="Imagem representativa do projeto de uma biblioteca online" alt="Imagem representativa do projeto de uma biblioteca online" /> 
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/GlauciaVasconcelos13/Young-2---HTML/commit/d026f89530d18a2b655170365020a7d31d45fad7#diff-2f405a05ff793ce3b6650fed030858e13d80dbdee61ff60118ffca04babd4e06">Ver código do projeto</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Previsão do Tempo</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Este projeto é um aplicativo web de previsão do tempo, criado com HTML, CSS e JavaScript, que permite ao usuário consultar as condições climáticas atuais de qualquer cidade, utilizando dados de uma API externa de clima.
+                </p>
+                <p>
+                    A estrutura do site é baseada em HTML, que define a semântica e o layout do
+                    conteúdo, enquanto o CSS é usado para estilizar a página visualmente,
+                    incluindo cores, tipografia e a disposição dos elementos.
+                </p>
+                <p>
+                    O HTML organiza o conteúdo em
+                    uma divisão principal (.container) que apresenta o título atraente para identificação com demais div para resultados da busca (#result), (#result2), (#result3), (#result4) e (#result5). Cada campo é destacado em
+                    sua própria div, mostrando ao final do container um input (#input_city) para inserir a cidade desejada para a busca e botão para verificação de resultados. O design responsivo é garantido pelo uso de uma
+                    meta tag viewport e um layout flexível que se adapta a diferentes tamanhos
+                    de tela.
+                </p>
+                <p>
+                    O CSS personaliza o visual do site, usando variáveis para cores, estilizando
+                    o texto com uma fonte importada do Google Fonts e aplicando um esquema de
+                    cores suaves e botões interativos. O uso de HTML e CSS é importante pois
+                    assim é possível criar um site acessível e esteticamente agradável sem a
+                    necessidade de scripts complexos, com foco na usabilidade e na experiência
+                    da pessoa usuária. A escolha da tipografia e do esquema de cores contribui
+                    para a atmosfera acolhedora do site.
+                </p>
+                <img src="imagens/projeto-2.png" class="img-fluid w-100" alt="Imagem representativa do projeto de uma previsão do tempo na web" alt="Imagem representativa do projeto de uma biblioteca online"/> 
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/GlauciaVasconcelos13/Young-2---HTML/blob/main/Aula%2017/index.html">Ver código do projeto</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Gerador de Pokemons</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    A Pokédex é uma aplicação web que permite aos usuários buscar e visualizar informações detalhadas sobre os Pokémons, simulando a famosa enciclopédia digital do universo Pokémon. Este projeto foi desenvolvido inteiramente com tecnologias de front-end: HTML, CSS e JavaScript, e utiliza a PokéAPI para obter os dados em tempo real.
+                </p>
+                <p>
+                    A estrutura do site é baseada em HTML, que define a semântica e o layout do
+                    conteúdo, enquanto o CSS é usado para estilizar a página visualmente,
+                    incluindo cores, tipografia e a disposição dos elementos.
+                </p>
+                <p>
+                    O HTML organiza o conteúdo em
+                    uma tag de principal "main" (.container) que uma imagem do primeiro Pokemon da Pokedex da API utilizada . Cada campo é destacado em tags de um título (h1), o nome e o número do Pokemon, um para inserir o nome ou número do Pokemon que deseja procurar (input) e dois botões para buscar (button). O design responsivo é garantido pelo uso de uma
+                    meta tag viewport e um layout flexível que se adapta a diferentes tamanhos
+                    de tela.
+                </p>
+                <p>
+                    O CSS personaliza o visual do site, usando variáveis para cores, estilizando
+                    o texto com uma fonte importada do Google Fonts e aplicando um esquema de
+                    cores suaves e botões interativos. O uso de HTML e CSS é importante pois
+                    assim é possível criar um site acessível e esteticamente agradável sem a
+                    necessidade de scripts complexos, com foco na usabilidade e na experiência
+                    da pessoa usuária. A escolha da tipografia e do esquema de cores contribui
+                    para a atmosfera acolhedora do site.
+                </p>
+                <img src="imagens/projeto-3.png" class="img-fluid w-100" alt="Imagem representativa do projeto de uma Pokedex" alt="Imagem representativa do projeto de uma biblioteca online"/> 
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/GlauciaVasconcelos13/Young-2---HTML/commit/7fe144e8bec8b210d0a167deaeac013ec90a95fe">Ver código do projeto</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/GlauciaVasconcelos13">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por GLÁUCIA</p>
+    </footer>
+  
+  
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
